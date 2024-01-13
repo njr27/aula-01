@@ -1,0 +1,53 @@
+@import "reset.css";
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  width: 25%;
+}
+
+.input-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.input-wrapper label {
+  margin-bottom: 5px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+h2 {
+  margin-bottom: 40px;
+  font-size: 16px;
+}
+
+.input-age input{
+    width: 50px;
+}
+
+.input-date input{
+    width: 120px;
+}
+
+.input-EULA{
+    flex-direction: row;
+    justify-content: left;
+    margin: 30px 0;
+}
+

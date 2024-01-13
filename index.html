@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Exercício 1</title>
+  </head>
+  <body>
+    <h1>Inscirção Hall To Code</h1>
+    <h2>Venha participar do melhor curso do Brasil só não, da Bahia</h2>
+
+    <form action="">
+      <div class="input-wrapper">
+        <label for="input-email">E-mail:</label>
+        <input
+          type="text"
+          id="input-email"
+          placeholder="Preencha seu e-mail"
+          required
+        />
+      </div>
+
+      <div class="input-wrapper">
+        <label for="input-name">Nome:</label>
+        <input
+          type="text"
+          id="input-name"
+          placeholder="Preencha seu nome"
+          required
+        />
+      </div>
+
+      <div class="input-wrapper input-age">
+        <label for="input-age">Idade:</label>
+        <input
+          type="number"
+          id="input-age"
+          placeholder="1"
+          required
+        />
+      </div>
+
+      <div class="input-wrapper input-date">
+        <label for="input-when">Quando deseja começar?</label>
+        <input type="date" id="input-when" required />
+      </div>
+
+      <div class="input-wrapper input-EULA">
+        <input type="checkbox" id="input-EULA" required />
+        <label for="input-EULA"
+          >Aceite os
+          <a href="eula.html" target="_blank"> termos de uso</a></label
+        >
+      </div>
+      <button>Enviar</button>
+    </form>
+  </body>
+</html>
